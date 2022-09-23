@@ -15,6 +15,7 @@ https://templatemo.com/tm-578-first-portfolio
   --white-color:                  #ffffff;
   --primary-color:                #535da1;
   --secondary-color:              #005B30;
+  --third-color:                  #ffb606;
   --secondary-color-text:         #005B30;
   --third-color-text:             #01963D;
   --section-bg-color:             #F0EFEF;
@@ -324,7 +325,7 @@ strong {
 
 .is-sticky,
 .is-sticky .navbar .container {
-  background: var(--white-color);
+  background: #ffb606;
   box-shadow: 0 1rem 3rem rgb(0 0 0 / 18%);
 }
 
@@ -334,7 +335,7 @@ strong {
 }
 
 .is-sticky .navbar-nav .nav-link {
-  color: var(--p-color);
+  color: var(--white-color);
 }
 
 .is-sticky .navbar .custom-btn {
@@ -499,7 +500,7 @@ strong {
 }
 .hero a {
   color: var(--white-color);
-  background: #535da1;
+  background: #ffb606;
   padding: 12px;
   width: 200px;
   text-align: center;
@@ -540,7 +541,7 @@ strong {
 }
 
 .hero-image-wrap {
-  background: var(--white-color);
+  background: var(--third-color);
   border-radius: 100%;
   width: 350px;
   height: 350px;
@@ -955,7 +956,7 @@ strong {
   SITE FOOTER              
 -----------------------------------------*/
 .site-footer {
-  background: var(--secondary-color-text);
+  background: var(--secondary-color);
   padding-top: 50px;
   padding-bottom: 50px;
   text-align: center;
