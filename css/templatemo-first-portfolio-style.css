@@ -714,6 +714,10 @@ margin: 30px auto;
   .getmorenformation {
     background-image: url('/images/Fotofundo_mais_info.png');
   }
+  .getmorenformation button {
+    background: var(--secondary-color);
+    color: var(--white-color);
+  }
 
 /*---------------------------------------
   SERVICES              
