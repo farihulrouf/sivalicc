@@ -166,6 +166,25 @@ strong {
   padding: 10px 30px;
 }
 
+/*---------------------------------------
+carousel
+-----------------------------------------*/
+.owl-carousel .item {
+  height: 10rem;
+  padding: 1rem;
+}
+.btns{
+display: table;
+margin: 30px auto;
+}
+.customNextBtn, .customPreviousBtn{
+  float: right;
+  color: var(--secondary-color);
+  padding: 10px;
+  margin-left: 5px;
+  font-size: 25px;
+  cursor: pointer;
+}
 
 /*---------------------------------------
   AVATAR IMAGE               
@@ -576,6 +595,8 @@ strong {
 
 .testimoni {
   margin-left: 40px;
+  display: flex;
+  align-items: center;
 }
 .testimoni .text-testi {
   margin-left: 10px;
